@@ -14,7 +14,7 @@
 ### Docker architecture
 ![Architecture](src/main/resources/docker_arch.png)
 
-### Docker images
+### Docker images - Basic Intro
 1. Images are the building blocks of the Docker world.
 2. You launch your containers from images.
 3. You can consider images to be the source code for your containers.
@@ -40,3 +40,11 @@ The Docker ecosystem contains two more tools:
 2. **Docker Swarm** - which allows you to create clusters of containers, called swarms, that allow you to run scalable workloads.
 
 ### Container naming
+1. Docker will automatically generate a name at random for each container we create.
+2. We can specify manual name using --name flag (refer docker-commands.sh)
+3. Names are unique. If we try to create two containers with the same name, the command will fail.
+4. As soon as come out of this containers, they are stopped.
+5. To run containers in background, daemonized containers are used, by using -d flag.
+
+### Docker Images - in Detail
+1. 
