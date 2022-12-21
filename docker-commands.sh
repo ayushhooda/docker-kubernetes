@@ -54,3 +54,19 @@ sudo docker rm container_id
 # Deleting all containers
 docker rm `docker ps -a -q`
 
+# Listing docker images
+sudo docker images
+
+# Local directories for docker images and containers
+/var/lib/docker-directory
+/var/lib/docker/containers
+
+# Pulling docker images
+sudo docker pull ubuntu:12.04 # here 12.04 is tag
+
+# Searching the docker images on DockerHub using CLI
+sudo docker search puppet
+
+# login to docker hub
+sudo docker login
+

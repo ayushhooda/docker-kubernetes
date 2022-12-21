@@ -46,5 +46,11 @@ The Docker ecosystem contains two more tools:
 4. As soon as come out of this containers, they are stopped.
 5. To run containers in background, daemonized containers are used, by using -d flag.
 
-### Docker Images - in Detail
-1. 
+### Building our own Docker Images
+1. There are two ways to create a docker image:
+
+      a. via docker commit command (not recommended)
+
+      b. via docker build command with a Dockerfile
+2. The Dockerfile uses a basic DSL with instructions for building Docker images.
+3. We then use the docker build command to build a new image from the instructions in the Dockerfile.
